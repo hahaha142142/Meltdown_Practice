@@ -103,7 +103,7 @@ static void attack_core(unsigned long long target_address){
     */
 }
 
-//计时差值（以时钟周期数位单位）数组、最小计时差值和其对应的数组索引
+//计时差值（以时钟周期数为单位）数组、最小计时差值和其对应的数组索引
 static int difference[256], min_difference[500];
 static unsigned char min_index[500];
 //Meltdown攻击
